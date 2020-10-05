@@ -1,58 +1,1963 @@
-test_anagram (__main__.TestExercice) ... ERROR
-test_doubles (__main__.TestExercice) ... ERROR
-test_frequence (__main__.TestExercice) ... ERROR
-test_grades (__main__.TestExercice) ... ERROR
-test_order (__main__.TestExercice) ... ERROR
+test_color_name_to_hex (__main__.TestExercice) ... ok
+test_compute_mse (__main__.TestExercice) ... ok
+test_create_list (__main__.TestExercice) ... ERROR
+test_list_to_dict (__main__.TestExercice) ... ok
 
 ======================================================================
-ERROR: test_anagram (__main__.TestExercice)
+ERROR: test_create_list (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 35, in test_anagram
-    output = [exercice.anagrams(v) for v in words]
-  File "test_exercice.py", line 35, in <listcomp>
-    output = [exercice.anagrams(v) for v in words]
-AttributeError: module 'exercice' has no attribute 'anagrams'
+  File "test_exercice.py", line 51, in test_create_list
+    'Mauvaise reponse'
+  File "/usr/lib/python3.6/unittest/case.py", line 1028, in assertListEqual
+    self.assertSequenceEqual(list1, list2, msg, seq_type=list)
+  File "/usr/lib/python3.6/unittest/case.py", line 1006, in assertSequenceEqual
+    pprint.pformat(seq2).splitlines()))
+  File "/usr/lib/python3.6/difflib.py", line 907, in compare
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 992, in _fancy_replace
+    yield from self._fancy_helper(a, alo, best_i, b, blo, best_j)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 1020, in _fancy_replace
+    yield from self._fancy_helper(a, best_i+1, ahi, b, best_j+1, bhi)
+  File "/usr/lib/python3.6/difflib.py", line 1032, in _fancy_helper
+    yield from g
+  File "/usr/lib/python3.6/difflib.py", line 950, in _fancy_replace
+    cruncher = SequenceMatcher(self.charjunk)
+  File "/usr/lib/python3.6/difflib.py", line 213, in __init__
+    self.set_seqs(a, b)
+  File "/usr/lib/python3.6/difflib.py", line 225, in set_seqs
+    self.set_seq2(b)
+  File "/usr/lib/python3.6/difflib.py", line 279, in set_seq2
+    self.__chain_b()
+RecursionError: maximum recursion depth exceeded
 
-======================================================================
-ERROR: test_doubles (__main__.TestExercice)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 49, in test_doubles
-    output = [exercice.contains_doubles(v) for v in values]
-  File "test_exercice.py", line 49, in <listcomp>
-    output = [exercice.contains_doubles(v) for v in values]
-AttributeError: module 'exercice' has no attribute 'contains_doubles'
+Ran 4 tests in 188.145s
 
-======================================================================
-ERROR: test_frequence (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 77, in test_frequence
-    output = [exercice.frequence(s) for s in sentences]
-  File "test_exercice.py", line 77, in <listcomp>
-    output = [exercice.frequence(s) for s in sentences]
-AttributeError: module 'exercice' has no attribute 'frequence'
-
-======================================================================
-ERROR: test_grades (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 62, in test_grades
-    output = exercice.best_grades(value)
-AttributeError: module 'exercice' has no attribute 'best_grades'
-
-======================================================================
-ERROR: test_order (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 19, in test_order
-    output = [exercice.order(v) for v in values]
-  File "test_exercice.py", line 19, in <listcomp>
-    output = [exercice.order(v) for v in values]
-AttributeError: module 'exercice' has no attribute 'order'
-
-----------------------------------------------------------------------
-Ran 5 tests in 0.001s
-
-FAILED (errors=5)
+FAILED (errors=1)
